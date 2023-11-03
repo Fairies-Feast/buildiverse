@@ -1,3 +1,6 @@
+import subprocess
+subprocess.run(["pip","install","flask"])
+subprocess.run(['clear'])
 from flask import Flask, request, render_template
 app = Flask('app')
 @app.route("/")
